@@ -76,7 +76,7 @@ function calculateCorrectAnswer() {
     let operator = document.getElementById('operator').innerText;
 
     if (operator === "+") {
-
+        return [operand1 + operand2, "addition"];
     }
 
     else if (operator === "x") {
